@@ -3,5 +3,6 @@ public class Main {
         System.out.println("Hello World!");
         System.out.println("git auto");
         System.out.println("git auto");
+        System.out.println("git auto");
     }
 }
