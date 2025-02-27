@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="-c &quot;git add . &amp;&amp; git commit -m 'Auto commit: $FilePathRelativeToProjectRoot$' &amp;&amp; git push &amp;&amp; git log -1 --pretty=format:'✅ Commit: %h - %s'&quot;" />
+      <option name="arguments" value="-c &quot;git add . &amp;&amp; git commit -m 'Auto commit: $FilePathRelativeToProjectRoot$' &amp;&amp; git push &amp;&amp; echo '✅ Commit:' &amp;&amp; git log -1 --pretty=format:'✅ Commit: %h - %s' &amp;&amp; read -p 'Press Enter to continue...'&quot;" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
