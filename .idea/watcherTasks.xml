@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="-c &quot; echo -e '\033[1;34m Staging files...\033[0m' &amp;&amp; git add . &amp;&amp; echo -e '\033[1;32m✅ Files added successfully!\033[0m' &amp;&amp; echo -e '\033[1;34m Committing changes...\033[0m' &amp;&amp; git commit -m 'Auto commit: $FilePathRelativeToProjectRoot$' &amp;&amp; echo -e '\033[1;32m✅ Commit successful!\033[0m' &amp;&amp; echo -e '\033[1;34m Pushing to remote...\033[0m' &amp;&amp; git push &amp;&amp; echo -e '\033[1;32m✅ Push successful!\033[0m' &amp;&amp; echo -e '\033[1;33m Latest commit:\033[0m' &amp;&amp; git log -1 --pretty=format:'\033[1;36m%h\033[0m - \033[1;33m%s\033[0m' &amp;&amp; echo ''&quot;" />
+      <option name="arguments" value="-c &quot; echo -e '\033[1;34m Staging files...\033[0m' &amp;&amp; git add . &amp;&amp; echo -e '\033[1;32m✅ Files added successfully!\033[0m' &amp;&amp; echo -e '\033[1;34m Committing changes...\033[0m' &amp;&amp; git commit -m 'Auto commit: $FilePathRelativeToProjectRoot$' &amp;&amp; echo -e '\033[1;32m✅ Commit successful!\033[0m' &amp;&amp; echo -e '\033[1;34m Pushing to remote...\033[0m' &amp;&amp; git push &amp;&amp; echo -e '\033[1;32m✅ Push successful!\033[0m' &amp;&amp; echo -e '\033[1;33m Latest commit:\033[0m' &amp;&amp; git log -1 --pretty=format:'\033[1;36m%h\033[0m - \033[1;33m%s\033[0m' --color=always &amp;&amp; echo ''; sleep 5&quot;" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />

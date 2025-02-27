@@ -6,5 +6,7 @@ public class Main {
         System.out.println("git auto");
         System.out.println("git auto");
         System.out.println("git auto");
+        System.out.println("git auto");
+        System.out.println("git auto");
     }
 }
